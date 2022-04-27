@@ -68,7 +68,8 @@ export const constantRoutes = [
         meta: {title: '首页', icon: 'dashboard', affix: true}
       }
     ]
-  }, {
+  },
+  {
     path: '/user',
     component: Layout,
     hidden: true,

@@ -34,7 +34,7 @@ public class BpmOALeaveServiceImpl implements BpmOALeaveService {
     /**
      * OA 请假对应的流程定义 KEY
      */
-    public static final String PROCESS_KEY = "oa_leave";
+    public static final String PROCESS_KEY = "flowable_01";
 
     @Resource
     private BpmOALeaveMapper leaveMapper;
